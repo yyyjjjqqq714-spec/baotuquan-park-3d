@@ -31,7 +31,7 @@
     for (let i = 0; i < n; i++) {
       const g = 100 + Math.random() * 120;
       ctx.fillStyle = `rgba(${g},${g},${g},${Math.random() * alpha})`;
-      ctx.fillRect(Math.random() * s, 2 + Math.random() * 4, 2 + Math.random() * 4);
+      ctx.fillRect(Math.random() * s, Math.random() * s, 2 + Math.random() * 4, 2 + Math.random() * 4);
     }
   }
 
