@@ -1,0 +1,11 @@
+# 构建产物（离线单文件，由 build/build.py 生成）
+dist/
+
+# 本地预览截图（版权参考图与渲染截图不入库）
+screenshots/
+
+# 构建脚本自动下载的 Three.js r147 UMD 依赖
+build/three.min.js
+build/OrbitControls.js
+build/CSS2DRenderer.js
+build/GLTFExporter.js
